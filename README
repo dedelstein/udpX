@@ -1,0 +1,11 @@
+makefile: make all to compile objects and executables
+
+udp_client: Usage: ./udp_client <ipv4 address> <port>, sends default message
+			on given port to given ip addr.
+
+udp_server: Usage: ./udp_server <ipv4 address> <port>, listens on given port
+			until udp packet recieved, then returns packet to client.
+
+fancy_client: Usage: ./fancy_client <ipv4 address> <port>, requests user string
+			  input in loop until success, sends string to port at given ip,
+			  waits for response and prints to stdout.
